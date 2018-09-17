@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+  <i class="icon-menu burguer-button" id="burger-button"></i>
   <header class="header">
     <div class="container">
       <figure class="logo">
@@ -19,7 +20,7 @@
         <ol>
           <li><a class="link" href="#portafolio">Portafolio</a></li>
           <li><a class="link" href="#eventos">Experiencia</a></li>
-          <li><a class="link" href="#contacto">Trabajemos juntos</a></li>
+          <li><a class="link border" href="#contacto">Trabajemos juntos</a></li>
         </ol>
       </nav>
     </div>
@@ -38,11 +39,11 @@
           <h3 class="project-title">Platzi Video</h3>
           <h6 class="project-course">React Native / React</h6>
           <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> juancafelizzola.github.io/platzivideo-react-native</small></p>
-          <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
+          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="juancafelizzola.github.io/platzivideo-react-native">juancafelizzola.github.io/platzivideo-react-native</a></small></p>
+          <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. <span>Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</span></p>
         </div>
         <figure class="project-image-container">
-          <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="Proyecto del curso de React Native">
+          <img class="project-image" src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native">
         </figure>
       </article>
       <article class="project">
@@ -50,17 +51,17 @@
           <h3 class="project-title">Platzi Video</h3>
           <h6 class="project-course">React Native / React</h6>
           <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> juancafelizzola.github.io/platzivideo-react-native</small></p>
-          <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
+          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="juancafelizzola.github.io/platzivideo-react-native">juancafelizzola.github.io/platzivideo-react-native</a></small></p>
+          <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. <span>Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</span></p>
         </div>
         <figure class="project-image-container">
-          <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="Proyecto del curso de React Native">
+          <img class="project-image" src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native">
         </figure>
       </article>
     </div>
   </section>
   <div class="container">
-    <h2 class="">Más sobre mi experiencia</h2>
+    <h2 class="experience">Más sobre mi experiencia</h2>
   </div>
   <section id="eventos" class="event-list">
     <div class="container">
@@ -110,14 +111,19 @@
     <div class="container">
       <form action="/suscripcion/" class="form-email">
         <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Déjame tu email">
+        <input type="email" placeholder="Déjame tu email">
         <button>Enviar</button>
       </form>
       <div class="social">
-        <a href="https://twitter.com/juancafelizzola" class="social-link twitter"></a>
-        <a href="https://facebook.com/juancafelizzola" class="social-link facebook"></a>
-        <a href="https://github.com/juancafelizzola" class="social-link github"></a>
-        <a href="https://instagram.com/juancafelizzola" class="social-link instagram"></a>
+        <a href="https://twitter.com/juancafelizzola" class="social-link twitter">
+          <i class="icon-twitter"></i>
+        </a>
+        <a href="https://facebook.com/juancafelizzola" class="social-link facebook">
+          <i class="icon-facebook"></i></a>
+        <a href="https://github.com/juancafelizzola" class="social-link github">
+          <i class="icon-github"></i></a>
+        <a href="https://instagram.com/juancafelizzola" class="social-link instagram">
+          <i class="icon-instagram"></i></a>
       </div>
     </div>
   </section>
@@ -132,5 +138,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
